@@ -1,12 +1,13 @@
 <div class="container">
   <div class="oferta" *ngIf="oferta !== undefined">
+    <!--
     <div class="row">
       <div class="col">
         <a [routerLink]="['/oferta', 1]">Oferta 1</a>
         <a [routerLink]="['/oferta', 2]">Oferta 2</a>
         <a [routerLink]="['/oferta', 3]">Oferta 3</a>
       </div>
-    </div>
+    </div> -->
 
     <div class="row">
       <div class="col">
@@ -24,6 +25,7 @@
           <img *ngFor="let imagem of oferta.imagens" [src]="imagem.url" />
         </div>
       </div>
+
 
       <div class="col-md-6">
         <div class="row">

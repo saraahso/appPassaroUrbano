@@ -10,6 +10,13 @@
         </div>
         <div class="col-md-6">
           <input type="text" class="form-control" placeholder="Pesquise por ofertas" #termoDaPesquisa (keyup)="pesquisa(termoDaPesquisa.value)" />
+          <ul class="list-group" style="position: absolute; z-index:999">
+            <li class="list-group-item" *ngFor="let oferta of ofertas | async">
+              <a [routerLink]="['/oferta', oferta.id]" (click)="limpapesquisa()">
+                {{oferta.titulo | descricaoReduzida:20}}
+              </a>
+            </li>
+          </ul>
         </div>
         <div class="col-md-2">
           <a a href="#"><img src="/assets/images/carrinho.png" /></a>

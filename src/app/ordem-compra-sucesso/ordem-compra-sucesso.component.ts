@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class OrdemCompraSucessoComponent implements OnInit {
 
-  @Input() public idPedidoCompra
+  @Input() public idPedidoCompra: number
 
   constructor() { }
 

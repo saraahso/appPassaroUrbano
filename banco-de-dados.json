@@ -194,67 +194,18 @@
       "id": 1
     },
     {
-      "endereco": "arfdfd ",
-      "numero": 1561,
-      "complemento": "sdfdff",
-      "formaPagamento": "dinheiro",
+      "endereco": "Rua Belo Horizonte",
+      "numero": "1560",
+      "complemento": "casa",
+      "formaPagamento": "debito",
       "id": 2
     },
     {
-      "endereco": "rua teste",
-      "numero": 12,
-      "complemento": "casa",
+      "endereco": "Rua Teste",
+      "numero": "123",
+      "complemento": null,
       "formaPagamento": "dinheiro",
       "id": 3
-    },
-    {
-      "endereco": "rua teste",
-      "numero": 12,
-      "complemento": "casa",
-      "formaPagamento": "dinheiro",
-      "id": 4
-    },
-    {
-      "endereco": "rua teste",
-      "numero": 12,
-      "complemento": "casa",
-      "formaPagamento": "dinheiro",
-      "id": 5
-    },
-    {
-      "endereco": "rua teste",
-      "numero": 12,
-      "complemento": "casa",
-      "formaPagamento": "dinheiro",
-      "id": 6
-    },
-    {
-      "endereco": "rua teste",
-      "numero": 12,
-      "complemento": "casa",
-      "formaPagamento": "dinheiro",
-      "id": 7
-    },
-    {
-      "endereco": "rua teste",
-      "numero": 12,
-      "complemento": "casa",
-      "formaPagamento": "dinheiro",
-      "id": 8
-    },
-    {
-      "endereco": "rua teste",
-      "numero": 12,
-      "complemento": "casa",
-      "formaPagamento": "dinheiro",
-      "id": 9
-    },
-    {
-      "endereco": "tttttttttttt",
-      "numero": 22222,
-      "complemento": "2222",
-      "formaPagamento": "dinheiro",
-      "id": 10
     }
   ]
 }
